@@ -31,9 +31,9 @@ void selection_sort(int *array, size_t size)
 
 	for (i = 0; i < size - 1; i++)
 	{
-		min = array + i;
-		for (n = i + 1; n < size; j++)
-			miniimum = (array[n] < *minimum) ? (array + n) : minimum;
+		minimum = array + i;
+		for (n = i + 1; n < size; n++)
+			minimum = (array[n] < *minimum) ? (array + n) : minimum;
 
 		if ((array + i) != minimum)
 		{
