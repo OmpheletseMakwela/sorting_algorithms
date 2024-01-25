@@ -61,5 +61,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void esc_ints(int *x, int *y);
 void bubble_sort(int *array, size_t size);
+void esc_nodes(listint_t **h, listint_t **node1, listint_t *node2);
+void insertion_sort_list(listint_t **list);
 
 #endif /*SORT_H*/
